@@ -1,4 +1,5 @@
 ﻿# Henter ned filter for ransomware og lager en fil som kan brukes på filserver til varsling av slike filer
+# Se https://fsrm.experiant.ca/
 
 $url = "https://fsrm.experiant.ca/api/v1/combined"
 $matching = "\*." # for eksempel: "xxx" eller "\*."
