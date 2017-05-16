@@ -19,4 +19,4 @@ $filinnhold = $template -replace "PATTERNS", $patterns
 Write-Host "Skriver fil: $filnavn"
 Set-Content $filnavn $filinnhold
 
-Write-Host "Fedig."
+Write-Host "Ferdig."
